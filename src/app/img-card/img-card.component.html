@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-card-actions>
+    <button 
+      (click)="generateSrc()"
+      mat-button
+      mat-raised-button
+      color="primary"
+      >
+      Give me another cat
+    </button>
+  </mat-card-actions>
+  <img 
+    src="{{ src }}" 
+    alt="Cute cat"
+    mat-card-image>
+</mat-card>
