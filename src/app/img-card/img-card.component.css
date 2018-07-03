@@ -2,6 +2,13 @@
   width: 400px;
   margin: 2rem auto;
 }
+
+@media only screen and (max-width: 500px) {
+  .mat-card {
+    width: 250px;
+  }
+}
+
 .mat-card .mat-card-actions {
   padding-top: 0;
 }
