@@ -1,12 +1,12 @@
 <mat-card>
   <mat-card-actions>
-    <button 
-      (click)="generateSrc()"
-      mat-button
-      mat-raised-button
-      color="primary"
-      >
-      Give me another cat
+      <button 
+      color="{{ button.color }}" 
+      (click)="generateSrc()" 
+      disabled="{{ button.disabled }}"
+      mat-button 
+      mat-raised-button>
+        {{ button.text }}
     </button>
   </mat-card-actions>
   <img 
