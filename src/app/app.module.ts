@@ -7,11 +7,13 @@ import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
 import { ImgCardComponent } from './img-card/img-card.component';
+import { NotifyButtonComponent } from './notify-button/notify-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImgCardComponent,
+    NotifyButtonComponent,
   ],
   imports: [
     BrowserModule,
